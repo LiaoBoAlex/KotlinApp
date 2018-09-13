@@ -3,6 +3,7 @@ package com.example.kotlinapp
 import android.app.Application
 
 public class App:Application(){
+
     companion object {
         lateinit var instance:App
     }
